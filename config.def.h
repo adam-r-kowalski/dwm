@@ -18,8 +18,8 @@ static const char foreground[]      = "#d4be98";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { foreground, background, col_gray2 },
-	[SchemeSel]  = { foreground, foreground, col_cyan  },
+	[SchemeNorm] = { foreground, background, background },
+	[SchemeSel]  = { background, foreground, background  },
 };
 
 /* tagging */
