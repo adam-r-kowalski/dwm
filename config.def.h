@@ -5,16 +5,16 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Caskaydia Cove Nerd Font:size=12" };
-static const char dmenufont[]       = "Caskaydia Cove Nerd Font:size=12";
+static const char *fonts[]          = { "Sauce Code Pro Nerd Font:size=16" };
+static const char dmenufont[]       = "Sauce Code Pro Nerd Font:size=16";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#8be9fd";
 
-static const char background[]      = "#1d2021";
-static const char foreground[]      = "#d4be98";
+static const char background[]      = "#ebdbb2";
+static const char foreground[]      = "#272727";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
