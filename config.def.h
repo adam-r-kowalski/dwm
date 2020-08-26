@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 1;        /* border pixel of windows */
+static const unsigned int borderpx  = 0;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -10,12 +10,11 @@ static const char dmenufont[]       = "Sauce Code Pro Nerd Font:size=12";
 
 static const char background[]      = "#1b2b34";
 static const char foreground[]      = "#d8dee9";
-static const char cyan[]            = "#62b3b2";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { foreground, background, foreground },
-	[SchemeSel]  = { background, foreground, cyan       },
+	[SchemeSel]  = { background, foreground, foreground },
 };
 
 /* tagging */
