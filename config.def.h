@@ -9,13 +9,13 @@ static const char *fonts[]          = { "Sauce Code Pro Nerd Font:size=12" };
 static const char dmenufont[]       = "Sauce Code Pro Nerd Font:size=12";
 
 static const char background[]      = "#1b2b34";
-static const char foreground[]      = "#6699cc";
-static const char green[]           = "#99c794";
+static const char foreground[]      = "#d8dee9";
+static const char cyan[]            = "#62b3b2";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { foreground, background, foreground },
-	[SchemeSel]  = { background, foreground, green  },
+	[SchemeSel]  = { background, foreground, cyan       },
 };
 
 /* tagging */
