@@ -7,19 +7,15 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Sauce Code Pro Nerd Font:size=12" };
 static const char dmenufont[]       = "Sauce Code Pro Nerd Font:size=12";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#8be9fd";
 
 static const char background[]      = "#1b2b34";
-static const char foreground[]      = "#ffffff";
+static const char foreground[]      = "#6699cc";
+static const char green[]           = "#99c794";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { foreground, background, foreground },
-	[SchemeSel]  = { background, foreground, background  },
+	[SchemeSel]  = { background, foreground, green  },
 };
 
 /* tagging */
