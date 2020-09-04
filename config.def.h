@@ -11,10 +11,14 @@ static const char dmenufont[]       = "Sauce Code Pro Nerd Font:size=12";
 static const char background[]      = "#1b2b34";
 static const char foreground[]      = "#d8dee9";
 
+static const char black[]      = "#2a2426";
+static const char white[]      = "#e6d6ac";
+static const char green[]      = "#87af87";
+
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { foreground, background, foreground },
-	[SchemeSel]  = { background, foreground, foreground },
+	[SchemeNorm] = { white, black, black },
+	[SchemeSel]  = { black, green, green },
 };
 
 /* tagging */
@@ -55,7 +59,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", background, "-nf", foreground, "-sb", foreground, "-sf", background, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", black, "-nf", white, "-sb", green, "-sf", black, NULL };
 static const char *termcmd[]  = { "st", NULL };
 
 static Key keys[] = {
