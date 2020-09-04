@@ -8,12 +8,13 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Sauce Code Pro Nerd Font:size=12" };
 static const char dmenufont[]       = "Sauce Code Pro Nerd Font:size=12";
 
-static const char background[]      = "#1b2b34";
-static const char foreground[]      = "#d8dee9";
 
 static const char black[]      = "#2a2426";
 static const char white[]      = "#e6d6ac";
 static const char green[]      = "#87af87";
+
+static const char background[]      = white;
+static const char foreground[]      = black;
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
