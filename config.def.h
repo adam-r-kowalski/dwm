@@ -13,9 +13,6 @@ static const char black[]      = "#2a2426";
 static const char white[]      = "#e6d6ac";
 static const char green[]      = "#87af87";
 
-static const char background[]      = white;
-static const char foreground[]      = black;
-
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { white, black, black },
